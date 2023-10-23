@@ -1,0 +1,4 @@
+#!/bin/sh
+gcc "$1" -lglfw3 -lGL -lX11 -lpthread -lXrandr -lXi -ldl -lm -g -o tmp
+./tmp
+rm tmp
